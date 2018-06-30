@@ -15,11 +15,7 @@ int main (void)
 	cin>>pos;
 	cout<<"\n Ingrese el numero a remplazar: ";
 	cin>>num;
-	for(int i=n;i>=pos;i--)
-	{
-		i=pos;
-		v[i]=num;
-	}
+	v[pos]=num;
 	for(int i=1;i<=n;i++)
 	{
 		cout<<"\n "<<v[i]<<"\n";
